@@ -4,4 +4,4 @@ Enjoy Scotch Bonnet!!!!!!!1
 ## Minor Update
 Improved README formatting.
 ## STATIC CHANGE ##
-Improved and updated UI
+Improved and updated UI for more interaction
