@@ -7,54 +7,76 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="service.html">Services</a>
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <header class="site-header">
+        <nav class="nav container">
+            <a href="index.html" class="brand">
+                <span class="brand-mark" aria-hidden="true">🌶️</span>
+                <span>Scotch Bonnet</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="service.html">Services</a>
+                <a href="again2.html">Explore</a>
+            </div>
         </nav>
     </header>
+
     <main>
-        <div class="hero-section">
-            <div class="logo" style="text-align:center;">
-                <img src="logo.jpg" alt="scotch bonnet logo" style="width:26%;">
+        <section class="hero container reveal">
+            <div class="hero-copy">
+                <p class="pill">🔥 Caribbean Heat. Modern Crunch.</p>
+                <h1>Bold snacks built for people who love fire.</h1>
+                <p>From blazing wafers to tropical pickles, we craft unforgettable flavor with the spirit of Scotch Bonnet in every bite.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="service.html">Book a tasting</a>
+                    <a class="btn btn-ghost" href="about.html">Our story</a>
+                </div>
             </div>
-            <h1 data-typewriter>Experience The Hell</h1>
-            <p>Welcome to Scotchies, where heat isn't just a flavor—it's a way of life.<br>We specialize in crafting the spiciest chili products that challenge even the most seasoned chili enthusiasts.<br>Whether you're seeking a fiery kick to your meals or a true test of your taste buds, Scotchies delivers the ultimate spice experience.</p>
-            <div style="text-align:center; margin: 20px 0;">
-                <a class="cta" href="again2.html">Read More</a>
+            <div class="hero-media floating-card">
+                <img src="stocks.jpg" alt="Spicy snacks display">
             </div>
-        </div>
-        
-        <hr style="width:60%;">
-        <h1 data-typewriter>Our Core Products</h1>
-        <div class="product-gallery">
-            <div class="product-card">
-                <img src="wafers.jpg" alt="wafers">
-                <div class="product-overlay">Spicy Wafers</div>
+        </section>
+
+        <section class="container stats reveal">
+            <article><h2 data-counter="120">0</h2><p>Retail partners</p></article>
+            <article><h2 data-counter="48">0</h2><p>Custom heat blends</p></article>
+            <article><h2 data-counter="99">0</h2><p>Percent repeat buyers</p></article>
+        </section>
+
+        <section class="container reveal">
+            <div class="section-heading">
+                <h2>Core products</h2>
+                <p>Hover any item to feel the intensity level.</p>
             </div>
-            <div class="product-card">
-                <img src="stocks.jpg" alt="stocks">
-                <div class="product-overlay">Hot Stocks</div>
+            <div class="product-grid">
+                <article class="product-card" data-heat="7">
+                    <img src="wafers.jpg" alt="Spicy Wafers">
+                    <div><h3>Spicy Wafers</h3><p>Crunchy, smoky, and perfectly addictive.</p></div>
+                </article>
+                <article class="product-card" data-heat="9">
+                    <img src="stocks.jpg" alt="Hot Stocks">
+                    <div><h3>Hot Stocks</h3><p>Rich concentrated flavor base for bold cooking.</p></div>
+                </article>
+                <article class="product-card" data-heat="8">
+                    <img src="pickle.jpg" alt="Fire Pickle">
+                    <div><h3>Fire Pickle</h3><p>Tangy fermented vegetables with island heat.</p></div>
+                </article>
             </div>
-            <div class="product-card">
-                <img src="pickle.jpg" alt="pickle">
-                <div class="product-overlay">Fire Pickle</div>
+            <div class="heat-meter">
+                <label for="heat-range">Heat scale preview</label>
+                <input id="heat-range" type="range" min="1" max="10" value="6">
+                <p id="heat-output">Heat level: 6/10 - Warm kick</p>
             </div>
-        </div>
-        
-        <h1 data-typewriter>Our Service</h1>
-        <hr style="width:60%;">
-        <div style="text-align:center;">
-            <video style="width:45%;" src="video/my ad.mp4" controls></video>
-        </div>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2024 All Rights Reserved KaivalyaRN&reg;</p>
-        <p>&#10054;&#10054;&#10054;&#10054;&#10054;</p>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Scotch Bonnet. Crafted for spice lovers.</p>
     </footer>
-    <div id="cursor-dot" class="cursor-dot"></div>
+
     <script src="script.js"></script>
 </body>
 </html>
-
