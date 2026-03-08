@@ -3,44 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scotch Bonnet - More Info</title>
+    <title>Scotch Bonnet - Explore</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="service.html">Services</a>
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <header class="site-header">
+        <nav class="nav container">
+            <a href="index.html" class="brand"><span class="brand-mark">🌶️</span><span>Scotch Bonnet</span></a>
+            <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="service.html">Services</a>
+                <a href="again2.html" class="active">Explore</a>
+            </div>
         </nav>
     </header>
-    <main>
-        <h1 data-typewriter>Scotch Bonnets</h1>
-        <p>Scotch Bonnet chili snack products are a vibrant and exciting category of snacks that harness the unique flavor and heat of the Scotch Bonnet pepper, a staple in Caribbean cuisine. Known for its distinctive fruity and floral notes, combined with a significant level of heat, these snacks cater to spice lovers and adventurous eaters alike. The Scotch Bonnet pepper, which can range from 80,000 to 400,000 Scoville heat units, is not just a mere ingredient; it is a cultural icon that embodies the essence of Caribbean cooking. This pepper is often celebrated for its ability to elevate dishes with its complex flavor profile, which includes hints of sweetness that balance its fiery nature.</p>
-        <h2>Flavor Profile</h2>
-        <p><strong>Complexity of Taste:</strong><br> The Scotch Bonnet pepper offers a unique combination of sweetness and heat, making it a versatile ingredient in various culinary applications. This complexity is what makes the snacks so appealing, as they provide a delightful explosion of flavors that dance on the palate. The initial sweetness gives way to a gradual build-up of heat, creating a layered tasting experience that keeps consumers coming back for more.</p>
-        <p><strong>Culinary Versatility:</strong><br> These snacks can be enjoyed in numerous ways, whether as a standalone treat, a party snack, or an accompaniment to meals. The versatility of the Scotch Bonnet pepper allows it to shine in various forms, from spicy chips to infused nuts, and even as a flavoring agent in sauces and dips. This adaptability makes Scotch Bonnet chili snacks a popular choice for those looking to spice up their snacking routine.</p>
-        <h2>Variety of Products</h2>
-        <p><strong>Diverse Offerings:</strong><br> The range of Scotch Bonnet chili snack products is extensive, catering to different tastes and preferences. For instance, spicy tortilla chips are often a favorite, providing a crunchy texture that pairs perfectly with the pepper's heat. Additionally, popcorn infused with Scotch Bonnet flavor offers a lighter snacking option that still delivers on spice. Nuts, such as almonds or cashews, can be roasted and seasoned with Scotch Bonnet seasoning, creating a savory snack that is both satisfying and nutritious.</p>
-        <p><strong>Innovative Flavors:</strong><br> Beyond traditional snacks, innovative brands are experimenting with Scotch Bonnet flavors in unexpected products, such as chocolate bars, where the heat of the pepper contrasts beautifully with the sweetness of the chocolate. This creativity not only broadens the appeal of Scotch Bonnet snacks but also introduces new consumers to the pepper's unique flavor.</p>
-        <h2>Culinary Inspiration</h2>
-        <p><strong>Cultural Significance:</strong><br> The Scotch Bonnet pepper is deeply rooted in Caribbean culture, often used in traditional dishes such as jerk chicken, pepper sauce, and various stews. By incorporating this pepper into snack products, brands pay homage to the rich culinary heritage of the Caribbean, allowing consumers to experience a taste of the islands in a convenient format.</p>
-        <p><strong>Authentic Recipes:</strong><br> Many Scotch Bonnet chili snacks are inspired by authentic Caribbean recipes, ensuring that the flavors are true to their origins. This authenticity resonates with consumers who appreciate genuine culinary experiences and are eager to explore the diverse flavors of Caribbean cuisine.</p>
-        <h2>Health Benefits</h2>
-        <p><strong>Nutritional Value:</strong><br> Scotch Bonnet peppers are not only flavorful but also packed with health benefits. They are rich in vitamins A, B, C, and K, which are essential for maintaining overall health. Additionally, these peppers contain minerals such as iron and magnesium, contributing to a well-rounded diet. The capsaicin found in Scotch Bonnet peppers is known for its anti-inflammatory properties and potential metabolism-boosting effects, making these snacks a healthier choice compared to traditional options.</p>
-        <p><strong>Guilt-Free Indulgence:</strong><br> With the growing trend towards healthier snacking, Scotch Bonnet chili snacks offer a guilt-free indulgence. Consumers can enjoy the bold flavors without compromising their health goals, making these snacks an attractive option for health-conscious individuals.</p>
-        <h2>Target Audience</h2>
-        <p><strong>Adventurous Eaters:</strong><br> Scotch Bonnet chili snacks are designed for those who seek excitement in their food. The target audience includes adventurous eaters, foodies, and anyone looking to add a spicy twist to their snacking experience. These consumers are often willing to explore new flavors and are drawn to products that challenge their taste buds.</p>
-        <p><strong>Cultural Enthusiasts:</strong><br> Additionally, individuals with an interest in Caribbean culture and cuisine are likely to be attracted to Scotch Bonnet snacks. These products provide a way for consumers to connect with the vibrant culture of the Caribbean, even if they are not able to travel there physically.</p>
-        <h2>Packaging and Branding</h2>
-        <p><strong>Eye-Catching Designs:</strong><br> The packaging of Scotch Bonnet chili snacks often reflects the lively and colorful culture of the Caribbean. Bright colors, bold graphics, and tropical motifs are commonly used to create an eye-catching presentation that stands out on store shelves. This visual appeal is crucial in attracting consumers and conveying the excitement associated with the product.</p>
-        <p><strong>Brand Storytelling:</strong><br>Many brands emphasize storytelling in their marketing, highlighting the origins of the Scotch Bonnet pepper and its significance in Caribbean cuisine. This narrative not only educates consumers but also</p>
+
+    <main class="container">
+        <section class="page-hero reveal">
+            <h1>Explore the Scotch Bonnet universe</h1>
+            <p>Select a tab to discover flavor, culture, and health highlights.</p>
+        </section>
+
+        <section class="tabs reveal">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="flavor">Flavor Profile</button>
+                <button class="tab-btn" data-tab="culture">Culture</button>
+                <button class="tab-btn" data-tab="benefits">Benefits</button>
+            </div>
+            <article class="tab-panel active" id="flavor">
+                <p>Scotch Bonnet starts sweet and fruity, then delivers a steady rising heat that lingers pleasantly.</p>
+            </article>
+            <article class="tab-panel" id="culture">
+                <p>A Caribbean icon used in jerk marinades, pepper sauces, and home recipes passed through generations.</p>
+            </article>
+            <article class="tab-panel" id="benefits">
+                <p>Rich in vitamins A and C, with capsaicin known for metabolism and anti-inflammatory support.</p>
+            </article>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2024 All Rights Reserved KaivalyaRN&reg;</p>
-        <p>&#10054;&#10054;&#10054;&#10054;&#10054;</p>
-    </footer>
-    <div id="rover"></div>
+
+    <footer class="site-footer"><p>&copy; 2026 Scotch Bonnet. Crafted for spice lovers.</p></footer>
     <script src="script.js"></script>
 </body>
 </html>

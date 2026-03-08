@@ -7,21 +7,65 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="service.html">Services</a>
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <header class="site-header">
+        <nav class="nav container">
+            <a href="index.html" class="brand"><span class="brand-mark">🌶️</span><span>Scotch Bonnet</span></a>
+            <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="service.html" class="active">Services</a>
+                <a href="again2.html">Explore</a>
+            </div>
         </nav>
     </header>
-    <main>
-        <h1 data-typewriter>Our Services</h1>
-        <p>We offer custom spice blending, catering packages, and wholesale options to bring the heat wherever you need it. Get in touch to learn how we can fire‑up your next event!</p>
+
+    <main class="container">
+        <section class="page-hero reveal">
+            <h1>Interactive services for spicy brands</h1>
+            <p>Choose a plan and scale your flavor strategy with us.</p>
+        </section>
+
+        <section class="pricing reveal">
+            <div class="toggle-wrap">
+                <span>One-time</span>
+                <label class="switch"><input id="pricing-toggle" type="checkbox"><span class="slider"></span></label>
+                <span>Monthly</span>
+            </div>
+            <div class="pricing-grid">
+                <article class="price-card" data-once="149" data-month="89">
+                    <h3>Heat Starter</h3>
+                    <p class="price">$149</p>
+                    <p>Menu consultation + 2 flavor prototypes.</p>
+                </article>
+                <article class="price-card featured" data-once="299" data-month="169">
+                    <h3>Flame Growth</h3>
+                    <p class="price">$299</p>
+                    <p>Product development + market sampling plan.</p>
+                </article>
+                <article class="price-card" data-once="499" data-month="279">
+                    <h3>Inferno Pro</h3>
+                    <p class="price">$499</p>
+                    <p>Full brand collaboration + R&D sprint.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="faq reveal">
+            <h2>Frequently asked questions</h2>
+            <details>
+                <summary>Can you create custom heat levels?</summary>
+                <p>Yes, from mild tropical warmth to challenge-level hot.</p>
+            </details>
+            <details>
+                <summary>Do you support events and catering?</summary>
+                <p>Yes, tasting stations and chef-led pairings are available.</p>
+            </details>
+        </section>
     </main>
-    <footer>
-        <p>&copy; 2024 All Rights Reserved KaivalyaRN&reg;</p>
-    </footer>
-    <div id="rover"></div>
+
+    <footer class="site-footer"><p>&copy; 2026 Scotch Bonnet. Crafted for spice lovers.</p></footer>
     <script src="script.js"></script>
 </body>
 </html>
