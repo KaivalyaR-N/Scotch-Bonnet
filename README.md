@@ -5,3 +5,5 @@ Enjoy Scotch Bonnet!!!!!!!1
 Improved README formatting.
 ## STATIC CHANGE ##
 Improved and updated UI for more interaction
+## Dynamic Update ##
+Enchanced and attractive UI designed with Logo redesigned
