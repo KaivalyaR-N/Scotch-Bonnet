@@ -1,15 +1,15 @@
-🌶️ Scotch Bonnet Website
+## 🌶️ Scotch Bonnet Website ##
 
 A beautifully designed static website dedicated to the famous Scotch Bonnet pepper.
 This project focuses on clean UI, responsive layout, and visually appealing design, demonstrating frontend development and styling skills.
 
-📌 About the Project
+## 📌 About the Project ##
 
 The Scotch Bonnet Website is a static informational website that showcases details about the Scotch Bonnet pepper, its origin, characteristics, culinary uses, and visual appeal.
 
 The main goal of this project is to demonstrate modern frontend design techniques using a simple static architecture while keeping the user interface engaging and responsive.
 
-✨ Features
+## ✨ Features ##
 
 🎨 Clean and visually enhanced UI
 
@@ -33,7 +33,7 @@ JavaScript
 
 Responsive design techniques
 
-📂 Project Structure
+## 📂 Project Structure ##
 Scotch-Bonnet-Website
 │
 ├── index.html
@@ -65,14 +65,15 @@ Build a clean static website architecture
 
 Showcase creative design and layout implementation
 
-📸 Preview
+## 📸 Preview ##
 
 Add screenshots of the website here.
 
 Example:
 
 /assets/screenshots/homepage.png
-🔮 Future Improvements
+
+## 🔮 Future Improvements ##
 
 Possible enhancements:
 
@@ -84,7 +85,7 @@ Add dynamic content
 
 Integrate a backend or CMS
 
-👨‍💻 Author
+## 👨‍💻 Author ##
 
 Kaivalya Narvekar
 
