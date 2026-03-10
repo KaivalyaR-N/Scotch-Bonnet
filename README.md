@@ -53,7 +53,7 @@ index.html
 
 in your browser.
 
-🎯 ## Purpose of the Project ##
+## 🎯 Purpose of the Project ##
 
 This project was built to:
 
