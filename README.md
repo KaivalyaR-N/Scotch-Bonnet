@@ -45,13 +45,7 @@ Scotch-Bonnet-Website
 └── README.md
 🚀 Getting Started
 
-To run the project locally:
-
-Clone the repository
-
-git clone https://github.com/your-username/scotch-bonnet-website.git
-
-Open the project folder
+## Open the project folder ##
 
 Run the website by opening:
 
@@ -59,7 +53,7 @@ index.html
 
 in your browser.
 
-🎯 Purpose of the Project
+🎯 ## Purpose of the Project ##
 
 This project was built to:
 
