@@ -1,5 +1,4 @@
 :root {
-   :root {
   --cream: #F5EFE0;
   --soil: #3B2E22;
   --olive: #6B7353;
@@ -8,7 +7,6 @@
 
   --font-display: 'Fraunces', serif;
   --font-body: 'Work Sans', sans-serif;
-}
 }
 
 * { box-sizing: border-box; }
