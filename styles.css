@@ -1,12 +1,14 @@
 :root {
-    --bg: #090611;
-    --surface: #151022;
-    --surface-soft: #201931;
-    --text: #f6f1ff;
-    --muted: #b7a9cc;
-    --accent: #ff5d3a;
-    --accent-2: #ffc04d;
-    --radius: 16px;
+   :root {
+  --cream: #F5EFE0;
+  --soil: #3B2E22;
+  --olive: #6B7353;
+  --terracotta: #C1502E;
+  --mustard: #D9A441;
+
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Work Sans', sans-serif;
+}
 }
 
 * { box-sizing: border-box; }
